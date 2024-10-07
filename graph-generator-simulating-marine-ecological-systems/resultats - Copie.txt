@@ -1,0 +1,40 @@
+{'n1': 4, 'n2': 8, 'n3': 6, 'n4': 4}
+
+{'k12': 1, 'k23': 0, 'k34': 0, 'k13': 1, 'k24': 4, 'k14': 0, 'loops': 2, 'k_': 5}
+
+Racine
+Noeud FIX : d+ = 1 d- = 0 / succ : ('PHY',) pred : ()
+
+Hors niveaux
+Noeud LOS : d+ = 0 d- = 1 / succ : () pred : ('PHY',)
+Noeud RES : d+ = 0 d- = 1 / succ : () pred : ('PHY',)
+
+Niveau 1
+Noeud DET : d+ = 5 d- = 1 / succ : ('2', '8', '2', '12', '18') pred : ('PHY',)
+Noeud PHY : d+ = 5 d- = 1 / succ : ('DET', 'LOS', 'RES', '6', '13') pred : ('FIX',)
+Noeud 0 : d+ = 2 d- = 2 / succ : ('5', '18') pred : ('19', '13')
+Noeud 1 : d+ = 5 d- = 2 / succ : ('3', '4', '7', '9', '12') pred : ('4', '9')
+
+Niveau 2
+Noeud 2 : d+ = 2 d- = 2 / succ : ('15', '16') pred : ('DET', 'DET')
+Noeud 3 : d+ = 1 d- = 1 / succ : ('10',) pred : ('1',)
+Noeud 4 : d+ = 2 d- = 1 / succ : ('19', '1') pred : ('1',)
+Noeud 5 : d+ = 0 d- = 1 / succ : () pred : ('0',)
+Noeud 6 : d+ = 2 d- = 1 / succ : ('11', '12') pred : ('PHY',)
+Noeud 7 : d+ = 2 d- = 1 / succ : ('13', '14') pred : ('1',)
+Noeud 8 : d+ = 0 d- = 1 / succ : () pred : ('DET',)
+Noeud 9 : d+ = 3 d- = 1 / succ : ('19', '17', '1') pred : ('1',)
+
+Niveau 3
+Noeud 10 : d+ = 1 d- = 1 / succ : ('19',) pred : ('3',)
+Noeud 11 : d+ = 0 d- = 2 / succ : () pred : ('6', '14')
+Noeud 12 : d+ = 1 d- = 3 / succ : ('16',) pred : ('6', 'DET', '1')
+Noeud 13 : d+ = 3 d- = 2 / succ : ('17', '18', '0') pred : ('7', 'PHY')
+Noeud 14 : d+ = 2 d- = 2 / succ : ('11', '14') pred : ('7', '14')
+Noeud 15 : d+ = 0 d- = 1 / succ : () pred : ('2',)
+
+Niveau 4
+Noeud 16 : d+ = 1 d- = 3 / succ : ('16',) pred : ('12', '2', '16')
+Noeud 17 : d+ = 0 d- = 2 / succ : () pred : ('13', '9')
+Noeud 18 : d+ = 0 d- = 3 / succ : () pred : ('13', 'DET', '0')
+Noeud 19 : d+ = 1 d- = 3 / succ : ('0',) pred : ('10', '4', '9')

@@ -1,0 +1,5 @@
+A faire dans cet ordre, dans un invite de commande placé dans le bon dossier :
+ - git pull : importe depuis le serveur
+ - git add . : ajoute les nouveaux fichiers (pas obligatoire si on ne crée pas de fichiers)
+ - git commit -a : pour mettre un message sur les modifications effectuées (/!\/!\ FONCTIONNE COMME VI /!\/!\)
+ - git push : envoie tout

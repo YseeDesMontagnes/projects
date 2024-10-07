@@ -1,0 +1,1178 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass mwrep
+\begin_preamble
+\makeatletter
+\@addtoreset{chapter}{part}
+\@addtoreset{section}{chapter}
+\@addtoreset{thm}{section}
+\makeatother
+\usepackage{icomma}
+\renewcommand\thesection{\Roman{section}}
+\renewcommand\thesubsection{~~~\alph{subsection}}
+%\renewcommand\thethm{\arabic{section}.\arabic{thm}}
+\renewcommand\thedefn{\arabic{section}.\arabic{defn}}
+%\renewcommand\theprop{\arabic{section}.\arabic{prop}}
+%\renewcommand\thelem{\arabic{section}.\arabic{lem}}
+%\renewcommand\thecor{\arabic{section}.\arabic{cor}}
+\end_preamble
+\use_default_options true
+\begin_modules
+eqs-within-sections
+theorems-ams
+theorems-chap
+theorems-ams-extended
+\end_modules
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style french
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\bullet 0 2 5 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/logoINSA.jpg
+	lyxscale 20
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering{
+\end_layout
+
+\end_inset
+
+
+\series bold
+\size larger
+Projets GM3
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+\size larger
+2022/2023
+\series default
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering{
+\end_layout
+
+\end_inset
+
+
+\series bold
+\shape slanted
+\size giant
+Générateur de graphes simulant des systèmes écologiques
+\size default
+
+\begin_inset Newline newline
+\end_inset
+
+Projets GM3 - S1V1 - MSRO
+\series default
+\shape default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/reseaux.jpg
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "l"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+large
+\backslash
+centering{
+\end_layout
+
+\end_inset
+
+
+\series bold
+Étudiants : Constance BAU et Paul MEHAUD
+\begin_inset Newline newline
+\end_inset
+
+Encadrant : Arnaud KNIPPEL
+\series default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Définitions et premières pistes de réflexion
+\end_layout
+
+\begin_layout Standard
+« Suivez la nourriture et vous comprendrez la structure des communautés »
+ disait Charles ELTON, un écologue et zoologiste britannique du 
+\begin_inset Formula $\unit{XX^{ème}}$
+\end_inset
+
+ siècle.
+ C’est entre autres dans ce but, celui de suivre la nourriture, qu’à émergé
+ le concept le concept de chaîne alimentaire et donc de réseaux trophiques
+ (trophique vient du mot grec « trophikós » qui signifie nourriture).
+\end_layout
+
+\begin_layout Section
+Définition des termes en rapport avec les réseaux trophiques
+\end_layout
+
+\begin_layout Definition
+
+\emph on
+\bar under
+Chaîne alimentaire
+\bar default
+ :
+\emph default
+ Série d’organismes dans laquelle un organisme consomme celui qui le précède
+ avant d’être mangé par celui qui le suit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+
+\emph on
+\bar under
+Réseau trophique
+\bar default
+ :
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+La plus précise au niveau biologique et écologique :
+\emph default
+ Un réseau représente l’ensemble des interactions d’ordre alimentaire entre
+ les êtres vivants d’un écosystème.
+ Parmi ces interactions on retrouve, par exemple, la prédation, le parasitisme,
+ la décomposition de la matière organique ou encore la consommation de plantes.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+La plus simplifiée pour nous aider ensuite à concevoir une modélisation
+ :
+\emph default
+ Assemblage d’espèces d’un même écosystème réunies par les relations mangés-mang
+eurs.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Elle met en valeur le fait que les réseaux trophiques sont constitués de
+ chaînes alimentaires entre-mêlées :
+\emph default
+ Ensemble de chaînes alimentaires reliées entre elles au sein d’un écosystème
+ et par lesquelles l’énergie et la biomasse circulent (échanges d’éléments
+ tels que le flux de carbone et d’azote entre les différents niveaux de
+ la chaîne alimentaire).
+\end_layout
+
+\begin_layout Standard
+Nous avons choisi de mettre 3 définitions car cela permet de nous faire
+ une idée plus précise des réseaux trophiques mais aussi de voir un réseau
+ avec des angles de vue différents ce qui permet des représentations mentales
+ plus riches et variées et ainsi peut-être plus d’idées.
+\end_layout
+
+\begin_layout Section
+Définitions en rapport avec les graphes
+\end_layout
+
+\begin_layout Definition
+
+\emph on
+\bar under
+Coefficient de regroupement
+\bar default
+ :
+\emph default
+ Probabilité que 2 nœuds soient connectés sachant qu’ils ont un voisin commun.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Definition
+
+\emph on
+\bar under
+Densité
+\bar default
+ : 
+\emph default
+Rapport entre le nombre de liens présents et le nombre de liens possibles.
+\end_layout
+
+\begin_layout Section
+Généralités sur les réseaux trophiques
+\end_layout
+
+\begin_layout Subsection
+Différents niveaux dans les réseaux trophiques
+\end_layout
+
+\begin_layout Itemize
+Production primaire (espèces basales, autotrophes) : niveau 0 ;
+\end_layout
+
+\begin_layout Itemize
+Herbivore (se nourrissant des espèces basales) : niveau 1 ;
+\end_layout
+
+\begin_layout Itemize
+Prédateur : niveau 2 ;
+\end_layout
+
+\begin_layout Itemize
+Super prédateur : niveau 3.
+\end_layout
+
+\begin_layout Subsection
+Caractéristiques d’un graphe représentant un réseau trophique
+\end_layout
+
+\begin_layout Itemize
+La majorité des réseaux trophiques ont peu de nœuds par rapport à d’autres
+ réseaux non-biologiques.
+\end_layout
+
+\begin_layout Itemize
+Leur coefficient de regroupement est similaire à celui d’un graphe aléatoire.
+\end_layout
+
+\begin_layout Itemize
+Les distributions de degrés de nœuds des réseaux trophiques, qui sont les
+ distributions probabilistes des degrés de chaque sommet du réseau, diffèrent
+ de celles d’un réseau aléatoire.
+ Les réseaux trophiques présentent une variété de formes fonctionnelles
+ et ne peuvent pas être exprimées sous une forme fonctionnelle universelle.
+\end_layout
+
+\begin_layout Itemize
+Relation systémique entre la forme de la distribution des degrés de nœuds
+ et la densité :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+densité élevée 
+\begin_inset Formula $\implies$
+\end_inset
+
+ distribution probabiliste uniforme ;
+\end_layout
+
+\begin_layout Itemize
+densité moyenne 
+\begin_inset Formula $\implies$
+\end_inset
+
+ distribution probabiliste exponentielle ;
+\end_layout
+
+\begin_layout Itemize
+densité faible 
+\begin_inset Formula $\implies$
+\end_inset
+
+ distribution probabiliste de loi de puissance.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Complexité d’un réseau trophique 
+\begin_inset Formula $=$
+\end_inset
+
+ nombre d’espèce 
+\begin_inset Formula $\times$
+\end_inset
+
+ densité.
+\end_layout
+
+\begin_layout Section
+Premières idées pour le projet
+\end_layout
+
+\begin_layout Standard
+Paramètres du programme qui seront fournis au programme grâce à un fichier
+ (variables du programme) : le nombre d’espèces du réseau trophique ou le
+ nombre d’espèces par niveau du réseau trophique ou rien.
+\end_layout
+
+\begin_layout Standard
+Déterminer une liste de caractéristiques que devra respecter le graphe obtenu
+ pour pouvoir représenter un réseau trophique :
+\end_layout
+
+\begin_layout Itemize
+Nombre d’espèces décroissant en fonction du numéro du niveau (
+\emph on
+\bar under
+ex
+\bar default
+ :
+\emph default
+ plus d’espèces au niveau 1 qu’au niveau 2) + un petit nombre (petit par
+ rapport au nombre total d’espèces) d’espèces « taxons » c’est-à-dire des
+ espèces n’appartenant à aucun niveau car elles se font manger par une espèce
+ d’un niveau inférieur au niveau des espèces qu’elles mangent, par exemple.
+\end_layout
+
+\begin_layout Itemize
+La distribution des demi-degrés extérieurs de nœuds devra respecter :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Soit une densité de niveau définie selon chaque niveau (distribution aléatoire
+ des demi-degrés extérieurs de nœuds au sein d’un niveau mais le rapport
+ de la somme des demi-degrés extérieurs de nœuds sur le nombre total d’arcs
+ sortants de ce niveau vers le niveau supérieur sera préalablement défini
+ pour que le graphe puisse correspondre à un réseau trophique) ;
+\end_layout
+
+\begin_layout Itemize
+Soit une répartition fonctionnelle des demi-degrés de nœuds (mais plus compliqué
+e).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Représentation des graphes sous forme de matrices d’adjacence ou de listes
+ de successeurs de chaque sommet.
+\end_layout
+
+\begin_layout Paragraph
+Idée de programme si l’on choisi de représenter les graphes par des listes
+ de successeurs
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Soient 
+\begin_inset Formula $A$
+\end_inset
+
+, 
+\begin_inset Formula $B$
+\end_inset
+
+, 
+\begin_inset Formula $C$
+\end_inset
+
+, 
+\begin_inset Formula $D$
+\end_inset
+
+ les sommets du niveau 1 et 
+\begin_inset Formula $E$
+\end_inset
+
+, 
+\begin_inset Formula $F$
+\end_inset
+
+ les sommets du niveau 2.
+\end_layout
+
+\begin_layout Standard
+On sait que la densité du niveau 1 est égale à 
+\begin_inset Formula $0,3$
+\end_inset
+
+ (c’est un exemple car pour l’instant nous ne savons pas les valeurs des
+ densité).
+\end_layout
+
+\begin_layout Standard
+Pour chaque sommet du niveau 1 on fera un tirage aléatoire 1 d’un nombre
+ entre 0 et 1, si ce nombre est inférieur à 
+\begin_inset Formula $0,3$
+\end_inset
+
+ alors le sommet 
+\begin_inset Formula $E$
+\end_inset
+
+ fera parti de sa liste de successeurs sinon non.
+ Idem avec le sommet.
+ Cette idée sera bien sûr à améliorer, à préciser et à généraliser si on
+ choisi de la garder.
+\end_layout
+
+\begin_layout Chapter
+Choix concernant le programme/Information sur le programme que nous avons
+ décidé de coder
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Après avoir fait des recherches sur le sujet par nos propres moyens, le
+ professeur responsable de notre projet nous a transmis un article intitulé
+ 
+\begin_inset Quotes fld
+\end_inset
+
+A simple program to explicitly construct marine ecosystems
+\begin_inset Quotes frd
+\end_inset
+
+ dont nous nous sommes grandement inspiré pour créer notre programme.
+ De plus cet article contient des données concernant les réseaux trophiques
+ de 6 écosystèmes marins, ces données nous ont été grandement utiles car
+ nous avons pu remarquer quelques tendances se dégageant de ces données
+ et ainsi créer un simulateur de graphe dont les graphes peuvent correspondre
+ à des écosystèmes marins.
+\end_layout
+
+\begin_layout Section
+Informations sur notre programme
+\end_layout
+
+\begin_layout Standard
+Nous avons choisi de créer 2 programmes différents, l'un simulant des réseaux
+ trophiques d'écosystèmes marins avec une densité entre niveau choisie au
+ hasard et l'autre simulant des réseaux dont on peut choisir la densité
+ entre chaque niveau.
+ Ce simulateur peut simuler des réseaux trophiques pour un nombre d'espèces
+ compris entre 12 et 34 espèces et il simulera des réseaux trophiques avec
+ 4 niveaux trophiques.
+ Nous avons choisi cet intervalle pour le nombres d'espèces car dans les
+ données de l'article les écosystèmes avaient un nombre d'espèces compris
+ entre 14 et 32 donc nous n'avons pas voulu trop nous éloigner de cet intervalle
+ car nous n'avons aucune idée des réseaux trophiques pour un nombre d'espèces
+ très inférieur ou très supérieur à ces limites.
+ Par ailleurs nous avons choisi de répartir ces espèces entre 4 niveaux
+ trophiques car nous avions seulement un exemple d'écosystème avec 5 niveaux
+ trophiques donc on ne pouvait pas en dégager une tendance générale.
+\end_layout
+
+\begin_layout Standard
+Pour des soucis de rapidité d'exécution, ces deux programmes on été réunis
+ dans le fichier 
+\begin_inset Quotes fld
+\end_inset
+
+grapheateur.py
+\begin_inset Quotes frd
+\end_inset
+
+ (on choisit donc le premier programme en tapant 1 et le deuxième en tapant
+ 2).
+\end_layout
+
+\begin_layout Subsection
+Le programme avec une densité aléatoire
+\end_layout
+
+\begin_layout Standard
+Ce programme crée des graphes aléatoires comportant 
+\begin_inset Formula $n$
+\end_inset
+
+ sommets qui respectent plusieurs conditions pour pouvoir correspondre à
+ des réseaux trophiques.
+ Ces conditions sont les suivantes :
+\end_layout
+
+\begin_layout Itemize
+le graphe comporte 
+\begin_inset Formula $n$
+\end_inset
+
+ sommets répartis en 4 niveaux (plus les 5 sommets fixes : FIX, PHY, DET,
+ LOS, RES) ;
+\end_layout
+
+\begin_layout Itemize
+chaque niveau comporte au minimum 1 sommet ;
+\end_layout
+
+\begin_layout Itemize
+le nombre de sommets par niveau est choisi aléatoirement entre 0 et 
+\begin_inset Formula $n$
+\end_inset
+
+ et on réintègre le tirage jusqu'à obtenir la propriété suivante :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+si on note 
+\begin_inset Formula $n1$
+\end_inset
+
+, 
+\begin_inset Formula $n2$
+\end_inset
+
+, 
+\begin_inset Formula $n3$
+\end_inset
+
+, 
+\begin_inset Formula $n4$
+\end_inset
+
+ le nombre de sommets (respectivement) au niveau 1, 2, 3 et 4 alors on a
+ 
+\begin_inset Formula $n2\geqslant n3$
+\end_inset
+
+, 
+\begin_inset Formula $n3\geqslant n1$
+\end_inset
+
+ et 
+\begin_inset Formula $n1\geqslant n4$
+\end_inset
+
+ ;
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+il contient 0, 1 ou 2 boucles ;
+\end_layout
+
+\begin_layout Itemize
+chaque sommet est le successeur d'au moins un sommet du niveau inférieur
+ (sauf pour le niveau 1) ;
+\end_layout
+
+\begin_layout Itemize
+chaque sommet du niveau 1 a au moins un successeur dans les niveaux supérieurs.
+\end_layout
+
+\begin_layout Standard
+Ce programme est implémenté de la manière suivante :
+\end_layout
+
+\begin_layout Enumerate
+L'utilisateur saisit un nombre d'espèces compris entre 12 et 34 ;
+\end_layout
+
+\begin_layout Enumerate
+La fonction 
+\emph on
+levels_4(n)
+\emph default
+ qui va séparer le nombre en quatre niveaux trophiques ;
+\end_layout
+
+\begin_layout Enumerate
+La fonction 
+\emph on
+edges_4(n)
+\emph default
+ qui génère le nombre d'arêtes supplémentaires entre les différents niveaux,
+ le nombre de boucles et le nombre d'arêtes entre des nœuds depuis un niveau
+ 
+\begin_inset Formula $i$
+\end_inset
+
+ vers un niveau 
+\begin_inset Formula $j$
+\end_inset
+
+, inférieur ou égal ;
+\end_layout
+
+\begin_layout Enumerate
+La fonction 
+\emph on
+generate_4(nbNodes4,nbArcs4)
+\emph default
+ génère les graphe en créant les arêtes entre les nœuds suivant les résultats
+ des fonctions précédentes ;
+\end_layout
+
+\begin_layout Enumerate
+La fonction 
+\emph on
+fichier_4(n,nodes,nbNodes4,nbArcs4)
+\emph default
+ génère le fichier de résultat ;
+\end_layout
+
+\begin_layout Enumerate
+Un affichage du graphe est effectué grâce à 
+\emph on
+pyplot
+\emph default
+ et 
+\emph on
+networkx
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Ce programme comporte des limites, explicitées en conclusion, c'est pourquoi
+ nous avons codé le programme simulant des graphes avec une densité choisie
+ d'une manière complètement différente.
+\end_layout
+
+\begin_layout Subsection
+Le programme avec une densité choisie 
+\end_layout
+
+\begin_layout Standard
+Ce programme simule des réseaux trophiques avec une densité entre chaque
+ niveau choisie par l'utilisateur.
+ Les graphes obtenus respectent beaucoup plus de conditions, la variété
+ de graphes que l'on peut obtenir est donc plus restreinte, mais si l'on
+ choisi une densité proche du minimum autorisé, ils représentent mieux les
+ réseaux trophiques.
+ 
+\end_layout
+
+\begin_layout Standard
+Le programme est fait de telle sorte que les graphes obtenus respectent
+ les conditions suivantes :
+\end_layout
+
+\begin_layout Itemize
+La somme du nombre de sommets vaut 
+\begin_inset Formula $n+3$
+\end_inset
+
+ (les 
+\begin_inset Formula $n$
+\end_inset
+
+ espèces choisies par l'utilisateur plus les espèces FIX, PHY et DET) ;
+\end_layout
+
+\begin_layout Itemize
+FIX a seulement un successeur qui est PHY (FIX est son unique prédécesseur),
+ et DET a seulement 1 prédécesseur qui est PHY.
+ PHY et DET appartiennent au niveau 1 ;
+\end_layout
+
+\begin_layout Itemize
+Le nombre de sommet est décroissant du niveau 2 au niveau 4 ;
+\end_layout
+
+\begin_layout Itemize
+Le niveau 2 contient un nombre de sommets compris entre la partie entière
+ du tiers de 
+\begin_inset Formula $n$
+\end_inset
+
+ et la partie entière de la moitié de 
+\begin_inset Formula $n+1$
+\end_inset
+
+ car on a remarqué grâce au tableau que les réseaux trophiques étudiés respectai
+ent cette condition ;
+\end_layout
+
+\begin_layout Itemize
+Le niveau 3 contient un nombre de sommets compris entre 4 et 6 avec des
+ probabilités différentes d'obtenir chacune de ces 3 valeurs pour permettre
+ d'avoir plus de chance d'obtenir 5 ou 6 lorsque 
+\begin_inset Formula $n$
+\end_inset
+
+ est grand et moins de chance lorsque 
+\begin_inset Formula $n$
+\end_inset
+
+ est petit ;
+\end_layout
+
+\begin_layout Itemize
+Le niveau 4 contient un nombre de sommet compris entre 2 et 4 avec une probabili
+té 3 fois plus grande d'affecter le nombre 3 ;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+L'utilisateur doit choisir une densité comprise entre niveaux comprise entre
+ la densité minimum entre ces deux niveaux et 1.
+
+\series default
+\bar default
+ La densité minimum entre deux niveaux est calculée de telle sorte que chaque
+ sommet du niveau supérieur ait au moins un prédécesseur au niveau inférieur
+ (
+\begin_inset Formula $dmin=1/\text{nb sommets du niveau supérieur}$
+\end_inset
+
+) ;
+\end_layout
+
+\begin_layout Itemize
+Le nombre d'arcs entre 2 niveaux successifs respecte la densité choisie
+ par l'utilisateur ;
+\end_layout
+
+\begin_layout Itemize
+Le nombre d'arcs entre 2 niveaux non côte à côte est choisi grâce a un tirage
+ au hasard dans une répartition gaussienne qui nous a été inspirée par le
+ tableau de données.
+ La répartition gaussienne choisie dépend des niveaux entre lesquels on
+ veut créer les arcs.
+ ;
+\end_layout
+
+\begin_layout Itemize
+Après avoir déterminé le nombre d'arcs entre chaque niveau, les arcs sont
+ créés aléatoirement en respectant le nombre choisi et de telle façon que
+ chaque sommet d'un niveau 
+\begin_inset Formula $n+1$
+\end_inset
+
+ ait un prédécesseur au niveau 
+\begin_inset Formula $n$
+\end_inset
+
+ ;
+\end_layout
+
+\begin_layout Itemize
+Chaque sommet du niveau 1 a au minimum 1 successeur.
+\end_layout
+
+\begin_layout Chapter
+Répartition des tâches
+\end_layout
+
+\begin_layout Standard
+Ayant suivi les idées de l'article, nous avons donc pu séparer l'implémentation
+ en deux parties :
+\end_layout
+
+\begin_layout Enumerate
+une partie plus 
+\begin_inset Quotes fld
+\end_inset
+
+pratique
+\begin_inset Quotes frd
+\end_inset
+
+ qui génère des graphes aléatoires avec peu de conditions ;
+\end_layout
+
+\begin_layout Enumerate
+une partie plus 
+\begin_inset Quotes fld
+\end_inset
+
+théorique
+\begin_inset Quotes frd
+\end_inset
+
+ qui essaie de se rapprocher au mieux des données disponibles dans l'article.
+\end_layout
+
+\begin_layout Standard
+Nous nous sommes donc partagé ces deux approche, Paul prenant la première
+ partie et Constance, la deuxième.
+\end_layout
+
+\begin_layout Chapter
+Conclusion
+\end_layout
+
+\begin_layout Section
+Limites du programme / difficultés rencontrées
+\end_layout
+
+\begin_layout Standard
+Le seul gros défaut de notre programme, c'est qu'il n'est pas 
+\begin_inset Quotes fld
+\end_inset
+
+unifié
+\begin_inset Quotes frd
+\end_inset
+
+, c'est à dire, par exemple, que la manière de créer les graphes sont totalement
+ différentes :
+\end_layout
+
+\begin_layout Itemize
+listes de successeurs et prédécesseurs pour Paul ;
+\end_layout
+
+\begin_layout Itemize
+matrice d'adjacence pour Constance.
+\end_layout
+
+\begin_layout Standard
+La partie plus aléatoire manque peut-être d'optimisation algorithmique :
+ il y a beaucoup d'itérations avant de trouver un nombre de sommets convenable.
+\end_layout
+
+\begin_layout Section
+Apports du projet
+\end_layout
+
+\begin_layout Standard
+Ce projet nous, en premier, apporté de nouvelles connaissances en terme
+ de codage.
+ En effet, le python est un langage qui n'est pas enseigné dans le département
+ GM mais qui peut être très utile dans le monde du travail.
+ Ce projet nous a donc permis de 
+\begin_inset Quotes fld
+\end_inset
+
+faire nos armes
+\begin_inset Quotes frd
+\end_inset
+
+ sur un nouveau langage de programmation.
+\end_layout
+
+\begin_layout Standard
+Nous avons aussi mis en place un outil de collaboration qui va être précieux
+ pour tous les autres projets : Gitlab.
+ En effet, ce logiciel permet de partager tous les fichiers nécessaires
+ sans avoir à faire de fastidieux téléchargements, tout étant disponible
+ dans notre répertoire personnel.
+\end_layout
+
+\end_body
+\end_document
